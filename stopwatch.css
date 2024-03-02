@@ -1,0 +1,64 @@
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Arial';
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(56, 53, 53);
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+#display{
+    font-size: 40px;
+    display: flex;
+    font-family: monospace;
+    color: rgb(237, 228, 228);
+}
+#controls{
+    flex-direction: row;
+}
+
+button{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(90, 89, 89);
+
+}
+
+.css-lap{
+    background-color: rgb(41, 43, 43);
+    color: rgb(247, 245, 245);
+    
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
